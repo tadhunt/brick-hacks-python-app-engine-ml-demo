@@ -50,9 +50,9 @@ app = Flask(__name__)
 # 1. browse to: https://console.cloud.google.com/apis/credentials
 # 2. select Create Credentials -> Service Account Key
 # 3. Select "New Service Account" on the service account dropdown
-# 4. Give your service account a name, and set the role to "Owner"
+# 4. Give your service account a name, and set the role to "Project->Owner"
 # 5. Select the "JSON" radio button
-# 6. Press the download button, and download the key
+# 6. Press the create button, and download the key
 # 7. copy-paste the content of the downloaded file between the """'s in the private-key variable definiton below
 #
 private_key = """
